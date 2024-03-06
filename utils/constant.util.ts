@@ -1,0 +1,6 @@
+export const DEFAULT_DATE_FORMAT = 'DD MMM YYYY'
+export const DATE_TIME_FORMAT = 'DD MMM YYYY HH:mm'
+export const FULL_DATE_FORMAT = 'DD MMM YYYY HH:mm:ss'
+export const TIME_FORMAT = 'HH:mm'
+export const HTTP_METHOD_GET = 'GET'
+export const HTTP_METHOD_POST = 'POST'

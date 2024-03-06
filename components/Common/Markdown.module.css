@@ -1,0 +1,73 @@
+.markdownContent {
+  font-size: 1rem;
+  line-height: 26px !important;
+  color: rgba(0, 0, 0, 0.76) !important;
+}
+
+.markdownContent a {
+  color: #ab4ae2 !important;
+  text-decoration: none !important;
+}
+
+.markdownContent img {
+  max-width: 100%;
+}
+
+.markdownContent hr {
+  margin: 1rem 0 !important;
+}
+
+.markdownContent h6,
+.markdownContent h5,
+.markdownContent h4,
+.markdownContent h3,
+.markdownContent h2,
+.markdownContent h1 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--bs-heading-color, inherit);
+}
+
+.markdownContent h1 {
+  font-size: calc(1.375rem + 1.5vw);
+}
+
+.markdownContent h2 {
+  font-size: calc(1.325rem + 0.9vw);
+}
+
+.markdownContent h3 {
+  font-size: calc(1.3rem + 0.6vw);
+}
+
+.markdownContent h4 {
+  font-size: calc(1.275rem + 0.3vw);
+}
+
+.markdownContent h5 {
+  font-size: 1.25rem;
+}
+
+.markdownContent h6 {
+  font-size: 1rem;
+}
+
+@media (min-width: 1200px) {
+  .markdownContent h1 {
+    font-size: 2.5rem;
+  }
+
+  .markdownContent h2 {
+    font-size: 2rem;
+  }
+
+  .markdownContent h3 {
+    font-size: 1.75rem;
+  }
+
+  .markdownContent h4 {
+    font-size: 1.5rem;
+  }
+}
