@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   server: {
-    port: 3033
+    port: 3033,
   },
   reactStrictMode: true,
   images: {
