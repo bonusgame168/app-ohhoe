@@ -27,11 +27,11 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   const { reference } = router.query
   const visibleNavigation = reference !== '11' && reference !== '12'
   const keywords = [
-    'bonusgame168',
-    'bonus',
-    'bonusgame',
+    'ohhoe168',
+    'ohho',
+    'ohhoe',
     'game168',
-    'bonus168',
+    'ohho168',
     '168',
     'เว็บสล็อต',
     'สล็อตออนไลน์',
@@ -98,7 +98,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   const description =
     'เล่นสล็อตออนไลน์เว็บตรง แจกจริงไม่มีอั้นกับโปรโมชั่น เครดิตฟรี 100 ล่าสุด แค่สมัครสมาชิกวันนี้ก็รับได้เลยทันที โปรสล็อตสมาชิกใหม่มาพร้อมกับเกมฮิตที่กำลังมาแรงเป็นอย่างมากในปี 2023  รับรองเลยว่าจะต้องถูกใจหลายๆ คนอย่างแน่นอน, สล็อตเว็บตรง บริการเกมสล็อต เว็บตรงไม่ผ่านเอเย่นต์ สัมผัสประสบการเล่นสล็อตแตกหนักกับเรา ฝาก ถอน ไม่มีขั้นต่ำ เล่นสล็อต เว็บใหญ่ PGคาสิโนออนไลน์อันดับ1 สล็อตเว็บตรงที่นักพนันต่างรู้ เว็บสล็อต168 ที่แตกหนัก แจกจริง สมชื่อเฮงจริง นึกถึงสล็อตออนไลน์ต้อง, แทงหวยออนไลน์ เว็บไซต์อันดับ 1 จ่ายเยอะสุด ถอนเงินไว ไม่รอนาน มีทั้งหวยรัฐบาล หวยลาว หวยหุ้น หวยฮานอย หาเว็บแทงหวย ซื้อหวยออนไลน์ นึกถึงเรา'
   const title =
-    'BONUS GAME168 เว็บสล็อตอันดับ 1 ระบบออโต้ รวดเร็ว ทันใจ ฝาก-ถอน โอนไว สล็อตออนไลน์ สล็อตแตกง่ายที่นี่'
+    'OHHOE เว็บสล็อตอันดับ 1 ระบบออโต้ รวดเร็ว ทันใจ ฝาก-ถอน โอนไว สล็อตออนไลน์ สล็อตแตกง่ายที่นี่'
 
   useEffect(() => {
     strapiApiService
@@ -124,10 +124,10 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <meta name='keywords' content={keywords.join(',')} />
         <meta name='description' content={description} />
         {/* facebook */}
-        <meta property='og:site_name' content='BonusGame168' />
+        <meta property='og:site_name' content='Ohhoe' />
         <meta property='og:title' content={title} />
         <meta property='og:description' content={description} />
-        <meta property='og:url' content='https://bonusgame168.com/' />
+        <meta property='og:url' content='https://ohhoe.com/' />
         <meta property='og:type' content='website' />
         {/* twitter */}
         <meta name='twitter:card' content='summary_large_image' />

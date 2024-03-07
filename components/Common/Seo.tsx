@@ -20,7 +20,7 @@ const Seo: React.FC<SeoProps> = ({ title, description, keywords, shareImageURL, 
       <title>{title}</title>
       <meta property='og:type' content='website' />
       <meta property='og:locale' content='th_TH' />
-      <meta property='og:site_name' content='bonusgame168' />
+      <meta property='og:site_name' content='ohhoe' />
       <meta name='description' content={description} />
       {keywords && <meta name='keywords' content={keywords} />}
 
@@ -41,11 +41,11 @@ const Seo: React.FC<SeoProps> = ({ title, description, keywords, shareImageURL, 
         <>
           <meta property='og:type' content='article' />
           <meta property='og:updated_time' content={articleInfo.updatedTime} />
-          <meta property='article:publisher' content='https://bonusgame168.com/' />
-          <meta property='article:author' content='bonusgame168' />
+          <meta property='article:publisher' content='https://ohhoe.com/' />
+          <meta property='article:author' content='ohhoe' />
           <meta property='article:published_time' content={articleInfo.publishedTime} />
           <meta property='article:modified_time' content={articleInfo.updatedTime} />
-          <link rel='canonical' href={`https://bonusgame168.com/article/${articleInfo.slug}`} />
+          <link rel='canonical' href={`https://ohhoe.com/article/${articleInfo.slug}`} />
         </>
       )}
     </Head>
