@@ -11,14 +11,14 @@ const HomeAboutusSection: React.FC = () => {
       <HomeSectionDivider />
       <div className='bg-primary text-white bg-[url("/images/background-aboutus.webp")] bg-no-repeat bg-cover'>
         <Container sx={{ padding: 5 }}>
-          <Typography variant='h6' className='text-center font-bold italic'>
-            ฝาก - ถอน ระบบออโต้รวดเร็ว โปรแรงสุดในไทย อัพเกรดใหม่ BONUSGAME168
+          <Typography variant='h6' className='text-center text-[#683107] font-bold italic'>
+            ฝาก - ถอน ระบบออโต้รวดเร็ว โปรแรงสุดในไทย อัพเกรดใหม่ OHHOE
           </Typography>
           <Box className={`flex flex-col-reverse lg:flex-row mt-[64px] sm:mt-[88px] lg:mt-[112px]`}>
             <Box className='aspect-square relative flex-1' sx={{ m: 2 }}>
-              <Image src='/images/ic-rabbit-mascot.webp' alt='rabbit mascot' fill className='object-contain' />
+              <Image src='/images/ic-dragon-mascot.webp' alt='dragon mascot' fill className='object-contain' />
             </Box>
-            <Box className='flex-1 bg-primary relative purple-shadow silver-gradient-border border-solid border-[4px] px-[20px] pb-[20px]'>
+            <Box className='flex-1 bg-rose-500 relative pink-shadow silver-gradient-border border-solid border-[4px] px-[20px] pb-[20px]'>
               <Image
                 className='absolute right-[-8%] top-[-10%] z-50 hidden lg:block'
                 src='/images/ic-rabbit-mascot-small.webp'
@@ -27,19 +27,19 @@ const HomeAboutusSection: React.FC = () => {
                 height={175}
               />
               <Box
-                className='absolute text-center top-[-8%] sm:top-[-18%] md:top-[-25%] lg:top-[-10%] left-1/2 origin-[1/2] purple-shadow silver-gradient-border border-solid border-[4px] max-w-full'
+                className='absolute text-center top-[-8%] sm:top-[-18%] md:top-[-25%] lg:top-[-10%] left-1/2 origin-[1/2] pink-shadow silver-gradient-border border-solid border-[4px] max-w-full'
                 sx={{
                   transform: 'translateX(-50%)',
                   p: 2,
                   background:
-                    'linear-gradient(90deg, rgba(40,3,60,1) 0%, rgba(90,17,140,1) 100%) padding-box, linear-gradient(90deg, rgba(139,139,139,1) 0%, rgba(103,103,103,1) 45%, rgba(255,255,255,1) 100%) border-box'
+                    'linear-gradient(0deg, rgba(252,8,99,1) 0%, rgba(247,123,57,1) 100%) padding-box, linear-gradient(90deg, rgba(139,139,139,1) 0%, rgba(103,103,103,1) 45%, rgba(255,255,255,1) 100%) border-box'
                 }}
               >
                 <Typography
                   variant='h4'
                   className='italic font-bold silver-text-gradient px-[24px] text-lg sm:text-[2.7rem] sm:leading-[2.8rem]'
                 >
-                  BONUSGAME168
+                  OHHOE
                 </Typography>
                 <Typography className='text-sm sm:text-[1.2rem] sm:leading-[1.5rem] whitespace-nowrap'>
                   <span className='text-yellow-text'>เว็บพนันออนไลน์</span>ที่ยิ่งใหญ่ที่สุดในยุคนี้
@@ -68,9 +68,9 @@ const HomeAboutusSection: React.FC = () => {
                   className='text-center lg:text-left text-[1rem] lg:text-[1.2rem] lg:leading-[1.8rem]'
                 >
                   และถ้าหากคุณเป็นหนึ่งคน ที่กำลังมองหาการสร้าง รายได้ ในรูปแบบนี้ การเข้ามาที่ คาสิโนออนไลน์
-                  BONUSGAME168 แห่งนี้ แปลว่าคุณมาถูกที่ ถูกทางแล้ว เพราะใน ปี 2023 นี้ ไม่มีแหล่งรายได้ใด ที่จะมอบ
+                  OHHOE แห่งนี้ แปลว่าคุณมาถูกที่ ถูกทางแล้ว เพราะใน ปี 2023 นี้ ไม่มีแหล่งรายได้ใด ที่จะมอบ
                   ประสบการณ์ทางเลือกใหม่ ได้เต็มรูปแบบ ครบ วงจร และสร้างความหลากหลาย ได้เงินจริง!! ได้เท่ากับ ที่
-                  คาสิโนออนไลน์ BONUSGAME168 อีก แล้ว อย่างแน่นอน
+                  คาสิโนออนไลน์ OHHOE อีก แล้ว อย่างแน่นอน
                 </Typography>
               </Box>
             </Box>

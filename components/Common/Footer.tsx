@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
   }
 
   return (
-    <Box className='bg-primary text-white pb-[56px] md:pb-0 '>
+    <Box className='bg-primary text-white pb-[56px] md:pb-0 bg-[url("/images/background-footer.webp")] bg-no-repeat bg-cover'>
       <Box sx={{ pt: 2 }}>
         <Slider {...settings}>
           {new Array(13).fill('').map((_: string, index) => (
@@ -78,7 +78,7 @@ const Footer: React.FC = () => {
           ))}
         </Box>
         <Typography fontSize='small' className='text-center' sx={{ mt: 4 }}>
-          2022-{new Date().getFullYear()} © Copyright BONUSGAME168 All rights Reserved.
+          2022-{new Date().getFullYear()} © Copyright OHHOE All rights Reserved.
         </Typography>
       </Container>
     </Box>

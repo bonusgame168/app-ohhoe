@@ -44,7 +44,7 @@ const HomeGameSection: React.FC = () => {
       <HomeSectionDivider />
       <div className='bg-primary text-white relative  bg-[url("/images/background-game.webp")] bg-no-repeat bg-cover'>
         <Container sx={{ padding: 5 }}>
-          <Typography variant='h4' className='text-center font-bold'>
+          <Typography variant='h4' className='text-center  text-[#683107] font-bold'>
             เกมส์มันส์มันส์
           </Typography>
           <Typography variant='body2' className='text-center block'>

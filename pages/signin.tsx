@@ -130,7 +130,7 @@ const Signup: NextPage = () => {
                         href='https://membonusgame.autobot168.app/forget-password'
                         target='_blank'
                         rel='noreferrer'
-                        className='ml-2 yellow-text-gradient pr-2'
+                        className='ml-2 brown-text pr-2'
                       >
                         ลืมรหัสผ่าน ?
                       </a>
@@ -148,7 +148,7 @@ const Signup: NextPage = () => {
               className='flex-col-reverse xl:flex-col items-center justify-center xl:items-end'
             >
               <Image
-                src='/images/ic-rabbit-speed.webp'
+                src='/images/ic-qilin.webp'
                 alt='rabit'
                 priority
                 width={400}
@@ -160,8 +160,8 @@ const Signup: NextPage = () => {
                 className='italic text-white text-center xl:text-right break-words text-xl md:text-4xl'
               >
                 ยินดีต้อนรับสู่
-                <span className='ml-2 yellow-text-gradient pr-2'>
-                  BONUSGAME168
+                <span className='ml-2 brown-text pr-2'>
+                  OHHOE
                 </span>
               </Typography>
               <Typography
@@ -169,7 +169,7 @@ const Signup: NextPage = () => {
                 className='text-white text-center xl:text-right text-xl md:text-2xl mt-10 xl:mt-2'
               >
                 หากคุณยังไม่มีบัญชี
-                <Link href='signup' className='ml-2 yellow-text-gradient pr-2'>
+                <Link href='signup' className='ml-2 brown-text pr-2'>
                   สมัครสมาชิก
                 </Link>
               </Typography>

@@ -138,7 +138,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       {announcement && (
         <div
           className={clsx(
-            'w-full text-white text-xs xl:text-lg bg-[#170023] py-2 sticky z-[99]',
+            'w-full text-white text-xs xl:text-lg bg-[#d84c04] py-2 sticky z-[99]',
             {
               'top-[var(--header-height)]': visibleNavigation,
               'top-0': !visibleNavigation,
@@ -166,7 +166,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             <CancelIcon />
           </Button>
           <a
-            href='https://line.me/R/ti/p/@147hdwat'
+            href='https://line.me/R/ti/p/@ohhoe'
             target='_blank'
             rel='noreferrer'
           >
@@ -174,7 +174,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               src='/images/ic-line-overlay.webp'
               alt='line button'
               width={93}
-              height={131}
+              height={110}
               priority
             />
           </a>

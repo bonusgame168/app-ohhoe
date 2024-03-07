@@ -46,8 +46,8 @@ const FooterNavigation: React.FC = () => {
           icon={
             <Image
               src='/images/logo-bottom-navigation.webp'
-              width={45}
-              height={45}
+              width={60}
+              height={60}
               alt='logo'
             />
           }
@@ -68,7 +68,7 @@ const FooterNavigation: React.FC = () => {
           className='text-white'
           label={
             <a
-              href='https://line.me/R/ti/p/@147hdwat'
+              href='https://line.me/R/ti/p/@ohhoe'
               target='_blank'
               rel='noreferrer'
             >

@@ -11,11 +11,11 @@ const HomeTrustSection: React.FC = () => {
       <HomeSectionDivider />
       <div className='bg-primary text-white relative  bg-[url("/images/background-promort.webp")] bg-no-repeat bg-cover'>
         <Container sx={{ padding: 5 }}>
-          <Typography variant='h4' className='text-center font-bold break-words yellow-text-gradient'>
-            BONUSGAME168
+          <Typography variant='h4' className='text-center text-[#683107] font-bold break-words'>
+            OHHOE
           </Typography>
           <Typography variant='body2' className='text-center block'>
-            ยินดีต้อนรับสู่ BONUSGAME168 สุดยอดเว็บสล็อตอันดับ 1 ในไทย
+            ยินดีต้อนรับสู่ OHHOE สุดยอดเว็บสล็อตอันดับ 1 ในไทย
           </Typography>
           <Grid
             container

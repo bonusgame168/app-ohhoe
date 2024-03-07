@@ -61,9 +61,9 @@ const HomeArticleSection: React.FC = () => {
   return (
     <>
       <HomeSectionDivider />
-      <Box className='bg-primary text-white'>
+      <Box className='bg-primary text-white bg-[url("/images/background-aboutus.webp")] bg-no-repeat bg-cover'>
         <Container sx={{ padding: 5 }}>
-          <Typography variant='h4' className='text-center font-bold'>
+          <Typography variant='h4' className='text-center text-[#683107] font-bold'>
             บทความ
           </Typography>
           <Box sx={{ mt: 8 }}>

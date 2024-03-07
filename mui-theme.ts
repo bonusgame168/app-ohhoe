@@ -36,21 +36,21 @@ export const muiTheme = createTheme({
           // borderRadius: '8px !important',
           '&.MuiButton-containedPrimary': {
             background:
-              'linear-gradient(0deg, rgba(41,4,60,1) 0%, rgba(153,68,208,1) 100%) padding-box, linear-gradient(90deg, rgba(139,139,139,1) 0%, rgba(103,103,103,1) 45%, rgba(255,255,255,1) 100%) border-box',
+              'linear-gradient(0deg, rgba(216,76,4,1) 0%, rgba(255,198,0,1) 100%) padding-box, linear-gradient(90deg, rgba(139,139,139,1) 0%, rgba(103,103,103,1) 45%, rgba(255,255,255,1) 100%) border-box',
             color: '#FFFFFF',
             border: '2px solid',
             borderImage:
               'linear-gradient(90deg, rgba(139,139,139,1) 0%, rgba(103,103,103,1) 45%, rgba(255,255,255,1) 100%) 1',
-            boxShadow: '0px 0px 8px 1px #ab4ae2'
+            boxShadow: '0px 0px 8px 1px #FF9800'
           },
           '&.MuiButton-containedWarning': {
-            border: '2px solid',
             background:
-              'linear-gradient(90deg, rgba(212,120,0,1) 0%, rgba(255,198,0,1) 100%) padding-box, linear-gradient(90deg, rgba(139,139,139,1) 0%, rgba(103,103,103,1) 45%, rgba(255,255,255,1) 100%) border-box',
-            color: '#FFFFFF',
-            borderImage:
-              'linear-gradient(90deg, rgba(139,139,139,1) 0%, rgba(103,103,103,1) 45%, rgba(255,255,255,1) 100%) 1',
-            boxShadow: '0px 0px 8px 1px #ab4ae2'
+            'linear-gradient(0deg, rgba(252,8,99,1) 0%, rgba(247,123,57,1) 100%) padding-box, linear-gradient(90deg, rgba(139,139,139,1) 0%, rgba(103,103,103,1) 45%, rgba(255,255,255,1) 100%) border-box',
+          color: '#FFFFFF',
+          border: '2px solid',
+          borderImage:
+            'linear-gradient(90deg, rgba(139,139,139,1) 0%, rgba(103,103,103,1) 45%, rgba(255,255,255,1) 100%) 1',
+          boxShadow: '0px 0px 8px 1px #FF9800'
           }
         }
       }
@@ -58,7 +58,7 @@ export const muiTheme = createTheme({
     MuiAppBar: {
       styleOverrides: {
         root: {
-          backgroundColor: '#170023'
+          backgroundColor: '#d84c04'
         }
       }
     },
@@ -67,7 +67,7 @@ export const muiTheme = createTheme({
         root: {
           borderRadius: '50% !important',
           '&.MuiPaginationItem-textPrimary.Mui-selected': {
-            backgroundColor: '#ab4ae2'
+            backgroundColor: '#FF9800'
           }
         }
       }

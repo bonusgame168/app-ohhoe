@@ -8,16 +8,16 @@ const HomePromotionSection: React.FC = () => {
   return (
     <>
       <HomeSectionDivider />
-      <div id='home-promotion' className='bg-primary text-white'>
+      <div id='home-promotion' className='bg-primary text-white bg-[url("/images/background-pro.webp")] bg-no-repeat bg-cover'>
         <Container sx={{ padding: 5 }}>
-          <Typography variant='h4' className='text-center font-bold'>
+          <Typography variant='h4' className='text-center text-[#683107] font-bold'>
             โปรโมชั่น
           </Typography>
           <Typography variant='body2' className='text-center block'>
             เดิมพันออนไลน์ ลงทุนน้อย กำไรเยอะ
           </Typography>
           <Grid container>
-            {new Array(6).fill('').map((_: unknown, index: number) => (
+            {new Array(9).fill('').map((_: unknown, index: number) => (
               <Grid container item xs={6} md={4} key={index} justifyContent='center'>
                 <Image
                   src={`/images/promotion-${index}.webp`}

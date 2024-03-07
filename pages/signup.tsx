@@ -292,7 +292,7 @@ const Signup: NextPage = () => {
               className='flex-col-reverse xl:flex-col items-center justify-center xl:items-end'
             >
               <Image
-                src='/images/ic-rabbit-speed.webp'
+                src='/images/ic-qilin.webp'
                 alt='rabit'
                 priority
                 width={400}
@@ -304,8 +304,8 @@ const Signup: NextPage = () => {
                 className='italic text-white text-center xl:text-right break-words text-xl md:text-4xl'
               >
                 ยินดีต้อนรับสู่
-                <span className='ml-2 yellow-text-gradient pr-2'>
-                  BONUSGAME168
+                <span className='ml-2 brown-text pr-2'>
+                  OHHOE
                 </span>
               </Typography>
               <Typography
@@ -313,7 +313,7 @@ const Signup: NextPage = () => {
                 className='text-white text-center xl:text-right text-xl md:text-2xl mt-10 xl:mt-2'
               >
                 หากคุณมีบัญชีแล้ว
-                <Link href='signin' className='ml-2 yellow-text-gradient pr-2'>
+                <Link href='signin' className='ml-2 brown-text pr-2'>
                   เข้าสู่ระบบ
                 </Link>
               </Typography>

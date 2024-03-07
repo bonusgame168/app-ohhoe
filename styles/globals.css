@@ -31,12 +31,17 @@
     -webkit-text-fill-color: transparent;
   }
 
-  .purple-shadow {
-    box-shadow: 0px 0px 8px 1px #ab4ae2;
+  .brown-text {
+    color: #683107;
+    text-decoration: none;
+  }
+
+  .pink-shadow {
+    box-shadow: 0px 0px 8px 1px #fc0863;
   }
 
   .submit-button {
-    background: linear-gradient(270deg, #ffa001, #ff5801);
+    background: linear-gradient(270deg, #f77b39, #fc0863);
     border: 0;
     box-shadow: none;
   }
