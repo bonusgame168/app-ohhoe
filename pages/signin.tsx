@@ -126,14 +126,14 @@ const Signup: NextPage = () => {
                       variant='h6'
                       className='text-center xl:text-right text-xl md:text-xl mt-5 xl:mt-2'
                     >
-                      <a
+                      {/* <a
                         href='https://membonusgame.autobot168.app/forget-password'
                         target='_blank'
                         rel='noreferrer'
                         className='ml-2 brown-text pr-2'
                       >
                         ลืมรหัสผ่าน ?
-                      </a>
+                      </a> */}
                     </Typography>
                   </Box>
                 </form>
